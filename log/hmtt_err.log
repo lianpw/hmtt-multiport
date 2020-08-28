@@ -1,0 +1,37 @@
+2020-08-27 08:45:23,544 ERROR [admin] [test02_mp_article.py (test_mp_article:38)] - 断言失败, 失败信息为: assert '0000' == '新增文章成功'
+  - 新增文章成功
+  + 0000
+2020-08-27 08:45:23,545 ERROR [admin] [base.py (base_screenshot:43)] - 断言出错, 正在执行截图操作!
+2020-08-27 08:45:23,943 ERROR [admin] [base.py (base_screenshot:47)] - 断言错误, 正在将图片写入allure报告!
+2020-08-27 09:02:51,688 ERROR [admin] [test03_mis_login.py (test_mis_login:36)] - 断言 登录失败, 失败原因为: assert '普通用户' in '欢迎 管理员'
+ +  where '欢迎 管理员' = <bound method PageMisLogin.page_get_nickname of <page.page_mis_login.PageMisLogin object at 0x03C15AF0>>()
+ +    where <bound method PageMisLogin.page_get_nickname of <page.page_mis_login.PageMisLogin object at 0x03C15AF0>> = <page.page_mis_login.PageMisLogin object at 0x03C15AF0>.page_get_nickname
+ +      where <page.page_mis_login.PageMisLogin object at 0x03C15AF0> = <scripts.test03_mis_login.TestMisLogin object at 0x039AD7F0>.login
+2020-08-27 09:05:35,367 ERROR [admin] [test03_mis_login.py (test_mis_login:36)] - 断言 登录失败, 失败原因为: assert '普通用户' in '欢迎 管理员'
+ +  where '欢迎 管理员' = <bound method PageMisLogin.page_get_nickname of <page.page_mis_login.PageMisLogin object at 0x03A73B68>>()
+ +    where <bound method PageMisLogin.page_get_nickname of <page.page_mis_login.PageMisLogin object at 0x03A73B68>> = <page.page_mis_login.PageMisLogin object at 0x03A73B68>.page_get_nickname
+ +      where <page.page_mis_login.PageMisLogin object at 0x03A73B68> = <scripts.test03_mis_login.TestMisLogin object at 0x0380D820>.login
+2020-08-27 09:05:35,367 ERROR [admin] [base.py (base_screenshot:43)] - 断言出错, 正在执行截图操作!
+2020-08-27 09:05:35,783 ERROR [admin] [base.py (base_screenshot:47)] - 断言错误, 正在将图片写入allure报告!
+2020-08-27 15:41:07,363 ERROR [admin] [test04_mis_audit.py (test_mis_audit:36)] - 断言审核文章业务失败, 失败原因为: assert False
+ +  where False = <bound method PageMisAudit.page_assert_audit of <page.page_mis_audit.PageMisAudit object at 0x043A74A8>>()
+ +    where <bound method PageMisAudit.page_assert_audit of <page.page_mis_audit.PageMisAudit object at 0x043A74A8>> = <page.page_mis_audit.PageMisAudit object at 0x043A74A8>.page_assert_audit
+ +      where <page.page_mis_audit.PageMisAudit object at 0x043A74A8> = <scripts.test04_mis_audit.TestMisAudit object at 0x041251D8>.audit
+2020-08-27 15:43:43,518 ERROR [admin] [test04_mis_audit.py (test_mis_audit:36)] - 断言审核文章业务失败, 失败原因为: assert False
+ +  where False = <bound method PageMisAudit.page_assert_audit of <page.page_mis_audit.PageMisAudit object at 0x03CE6538>>()
+ +    where <bound method PageMisAudit.page_assert_audit of <page.page_mis_audit.PageMisAudit object at 0x03CE6538>> = <page.page_mis_audit.PageMisAudit object at 0x03CE6538>.page_assert_audit
+ +      where <page.page_mis_audit.PageMisAudit object at 0x03CE6538> = <scripts.test04_mis_audit.TestMisAudit object at 0x03A65250>.audit
+2020-08-27 15:43:43,519 ERROR [admin] [base.py (base_screenshot:43)] - 断言出错, 正在执行截图操作!
+2020-08-27 15:43:43,882 ERROR [admin] [base.py (base_screenshot:47)] - 断言错误, 正在将图片写入allure报告!
+2020-08-27 17:15:29,711 ERROR [admin] [test04_mis_audit.py (test_mis_audit:36)] - 断言审核文章业务失败, 失败原因为: assert False
+ +  where False = <bound method PageMisAudit.page_assert_audit of <page.page_mis_audit.PageMisAudit object at 0x038D35E0>>()
+ +    where <bound method PageMisAudit.page_assert_audit of <page.page_mis_audit.PageMisAudit object at 0x038D35E0>> = <page.page_mis_audit.PageMisAudit object at 0x038D35E0>.page_assert_audit
+ +      where <page.page_mis_audit.PageMisAudit object at 0x038D35E0> = <scripts.test04_mis_audit.TestMisAudit object at 0x03655178>.audit
+2020-08-27 17:15:29,712 ERROR [admin] [base.py (base_screenshot:43)] - 断言出错, 正在执行截图操作!
+2020-08-27 17:15:30,065 ERROR [admin] [base.py (base_screenshot:47)] - 断言错误, 正在将图片写入allure报告!
+2020-08-27 21:57:22,046 ERROR [admin] [test04_mis_audit.py (test_mis_audit:36)] - 断言审核文章业务失败, 失败原因为: assert False
+ +  where False = <bound method PageMisAudit.page_assert_audit of <page.page_mis_audit.PageMisAudit object at 0x0479CA18>>()
+ +    where <bound method PageMisAudit.page_assert_audit of <page.page_mis_audit.PageMisAudit object at 0x0479CA18>> = <page.page_mis_audit.PageMisAudit object at 0x0479CA18>.page_assert_audit
+ +      where <page.page_mis_audit.PageMisAudit object at 0x0479CA18> = <scripts.test04_mis_audit.TestMisAudit object at 0x04415238>.audit
+2020-08-27 21:57:22,046 ERROR [admin] [base.py (base_screenshot:46)] - 断言出错, 正在执行截图操作!
+2020-08-27 21:57:22,391 ERROR [admin] [base.py (base_screenshot:50)] - 断言错误, 正在将图片写入allure报告!

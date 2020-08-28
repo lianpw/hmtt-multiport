@@ -1,0 +1,6 @@
+mp_article001:
+  title: 'test001_bj'
+  content: '今晚去唱歌'
+  expect: '0000'
+  screenshot_name: 'mp_article001'
+  channel: '数据库'

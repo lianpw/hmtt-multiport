@@ -1,0 +1,9 @@
+mp_login001:
+  username: '13812345678'
+  pwd: '246810'
+  expect: '13812345678'
+  screenshot_name: 'mp_login001'
+#mp_login002:
+#  username: '13812345678'
+#  pwd: '246810'
+#  expect: '1381234'

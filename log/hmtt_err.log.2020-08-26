@@ -1,0 +1,11 @@
+2020-08-26 17:59:14,473 ERROR [admin] [test01_mp_login.py (test_mp_login:34)] - 断言错误, 错误信息: assert '13812345678' == '1381234'
+  - 1381234
+  + 13812345678
+  ?        ++++
+2020-08-26 17:59:14,473 ERROR [admin] [base.py (base_screenshot:43)] - 断言出错, 正在执行截图操作!
+2020-08-26 17:59:15,010 ERROR [admin] [base.py (base_screenshot:47)] - 断言错误, 正在将图片写入allure报告!
+2020-08-26 17:59:34,898 ERROR [admin] [test02_mp_article.py (test_mp_article:35)] - 断言失败, 失败信息为: assert '123' == '新增文章成功'
+  - 新增文章成功
+  + 123
+2020-08-26 17:59:34,898 ERROR [admin] [base.py (base_screenshot:43)] - 断言出错, 正在执行截图操作!
+2020-08-26 17:59:35,300 ERROR [admin] [base.py (base_screenshot:47)] - 断言错误, 正在将图片写入allure报告!
